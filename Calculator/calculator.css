@@ -1,0 +1,82 @@
+body {
+    background-color: #e0e0e0;
+}
+ 
+ /*Header*/
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+            justify-content: flex-start;
+        }
+        .header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .header li {
+            display: flex;
+            align-items: center;
+            padding-left: 13px;
+            padding-top: 13px;
+            color: rgb(241, 241, 241);
+            font-size: 17px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .header button {
+            width: 10px;
+            height: 10px;
+            font-size: 15px;
+            margin-right: 18px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+
+
+    /*Calculator*/
+        .calculator {
+            width: 452px;
+            background-color: rgb(6, 19, 131);
+            border: 2px solid #888888;
+            padding: 12px;
+            padding-top: 80px;
+            margin-top: 7%;
+            margin-left: 40%;
+            position: relative;
+            border-radius: 5px;
+        }
+        @media screen and (max-width: 2080px) {
+        .calculator {
+            margin: auto; /* Center the calculator */
+            margin-top: 150px;
+        }
+        }
+        .calcu-contents button {
+            width: 100px;
+            height: 70px;
+            background-color:rgb(80, 97, 255);
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            margin: 5px;
+            border: 1px solid rgb(6, 15, 95);
+        }
+        .calculator input {
+            width: 435px;
+            height: 60px;
+            margin-left: 5px;
+            margin-bottom: 4px;
+            font-size: 25px;;
+            color: white;
+        }
